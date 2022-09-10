@@ -13,6 +13,8 @@ env:
   EB_ENVIRONMENT_NAME       : "Final-env"
   DEPLOY_PACKAGE_NAME       : "flaskapp-app-${{ github.sha }}.zip"
   AWS_REGION_NAME           : "us-west-1"
+  MY_AWS_ACCESS_KEY         : "AKIASGJNTIAY3ITFCZMM"
+  MY_AWS_SECRET_KEY         : "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"
 
 on: 
   push:
